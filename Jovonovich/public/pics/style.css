@@ -1,0 +1,15 @@
+body{
+    /* background-image: url(command-and-conquer-red-alert-3-key-art.jpg.adapt.crop3x5.533p.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.99;
+}
+*{
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+

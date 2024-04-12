@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#detail{
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    border: 2px solid black;
+    position: absolute;
+    left: 170px;
+    top: 100px;
+    justify-content:space-around;
+    align-items: center;
+}
+.deatilBox{
+    height: 450px;
+    /* border: 2px solid black; */
+}
+#posture{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100px;
+}
+#img{
+    width: 400px;
+    border: 2px solid black;
+}
+#about{
+    width: 400px;
+    /* border: 2px solid black; */
+}
+.posture_image{
+    /* border: 2px solid black; */
+    margin: 2px;
+}
+.posture_image:hover{
+    border: 2px solid black;
+}
+body{
+    /* background-color:antiquewhite ; */
+}
+#detail{
+    background-color: rgba(151, 237, 237, 0.4);
+}
+.documentation{
+    position: absolute;
+    top: 650px;
+    left:170px;
+    padding: 100px;
+    width: 1000px;
+    height:200px;
+    border: 2px solid black;
+    background-color: rgba(151, 237, 237, 0.4); ;
+}
+#button{
+    display: flex;
+    position: absolute;
+    top: 300px;
+}   
+#name{
+    box-shadow:15px 15px green ;
+}
+#det{
+    box-shadow:10px 10px black ;
+    margin-bottom: 20px;
+    width: 130px;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.nav-list{
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logo{
+    width: 50%;
+    display: flex;
+
+
+}
+.logo img{
+    width: 40%;
+    border: 3px solid rgb(50, 54, 50);
+    border-radius: 20px;
+}
+.nav-list li{
+    list-style: none;
+    padding: 15px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+.nav-list li a:hover{
+    color: rgb(109, 0, 11);
+
+}
+.rightNav{
+    width: 50%;
+    /* background-color: blueviolet; */
+    text-align: right;
+    padding: 20px;
+}
+#search{
+    padding:5px;
+    border-radius: 30px;
+}
+.background{
+    background: rgba(0,0,0,0.7) url('/john2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}

@@ -1,0 +1,73 @@
+body{
+    background-image: url("bg2.jpg");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.9;
+    
+}
+*{
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.element{
+    color: darkgray;
+    font-size: xx-large;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.secondpara{
+   
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.menubar{
+    height: 40px;
+    width: 144%;
+    background: white;
+    color: darkgoldenrod;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.menubar:hover{
+    background-color: rgb(111, 228, 226);
+}
+.boxbar{
+    padding: 40px;
+    margin: 20px 15px;
+    border: 10px solid #6a6262;
+    border-radius: 59px;
+    cursor: pointer;
+}
+.gun-name{
+    color: bisque;
+    font-size: xx-large;
+    font-family: system-ui;
+}
+.btn1{
+    font-size: x-large;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color: rgb(169, 163, 168);
+}
+.price{
+    font-weight: bold;
+    color: cornsilk;
+}
+
+/* css for navbar */
+

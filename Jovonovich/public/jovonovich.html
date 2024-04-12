@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="iota2.jpg" alt="logo"></div>
+            <li> <a href= "#home">Home</a></li>
+            <li> <a href= "#about">About</a></li>
+            <li class="load-guns"> <a href= "#services">Services</a></li>
+            <li> <a href= "#contact">Contact Us</a></li>
+            </ul>
+            <div class="rightNav v-class-resp">
+                <div style="display: flex;
+                flex-direction: row-reverse;">
+                    <button class="logout" style="    height: 26px;">log out</button>
+                    <h1 class="greeting"></h1>
+                </div>
+                <!-- <input type="text" name="search" id="search">
+                <button class="btn btn-sm">search</button> -->
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+    </nav>
+    <section  class= "background firstsection">
+        <div id="home" class="box-main">
+            <div class="firsthalf">
+                <p class="text-big">welcome to jovonovich</p>
+                <p class="text-small">
+                    Title: Guns for Self-Defense: Balancing Safety and Protection
+                    
+                    In the realm of self-defense, guns stand as a double-edged sword, offering both protection and peril. Advocates argue that firearms empower individuals to safeguard themselves and their loved ones, acting as a deterrent against potential threats. However, critics express concern over the increased risk of violence and accidents associated with gun ownership.</p>
+                <div class="buttons">
+                    <a href="mayukh.html"><button class="btn2 load-guns">View Guns</button></a>
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src="ak.jpeg" alt="laptop image">
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <div class="paras">
+        <P class="sectionTag text-big">Lokesh kumar kankarwal</P>
+        <p class="sectionSubTag text-small">1st year student of MNNIT. <br> </p>
+    </div>
+        <div class="thumbnail">
+            <img src="lokesh.jpg" alt="laptop image" class="imgFluid">
+        </div>
+    </section>
+    <section class="section section-Left">
+        <div class="paras">
+        <P class="sectionTag text-big">Monojit Bairagi</P>
+        <p class="sectionSubTag text-small">1st year student of MNNIT.</p>
+    </div>
+        <div class="thumbnail">
+            <img src="monojit.jpg" alt="laptop image" class="imgFluid">
+        </div>
+    </section>
+    <section class="section">
+        <div class="paras">
+        <P class="sectionTag text-big">Mayukh Panjha</P>
+        <p class="sectionSubTag text-small">1st year student of MNNIT</p>
+    </div>
+        <div class="thumbnail">
+            <img src="mayukh.jpg" alt="laptop image" class="imgFluid">
+        </div>
+    </section>
+    <section class="section section-Left">
+        <div class="paras">
+        <P class="sectionTag text-big">Abdul Kalam</P>
+        <p class="sectionSubTag text-small">1st year student of MNNIT.</p>
+    </div>
+        <div class="thumbnail">
+            <img src="abdul.jpg" alt="laptop image" class="imgFluid">
+        </div>
+    </section>   
+    <section id="services" >
+        <h1 style="font-size: -webkit-xxx-large; font-family: cursive;">Services</h1>
+        <div class="services">
+        <li>We sell best quality Guns</li>
+        <li>with 1 Year Warranty</li>
+        <li>We provide Legel Assistance for court cases</li>
+        </div>
+    </section>
+    <hr>
+    <section id="contact" class="contact">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="form">
+            <input type="text" name="name" id="name" placeholder="enter your UserName">
+            <input type="text" name="Phone" id="Phone" placeholder="enter your Phone">
+            <input type="Email" name="Email" id="Address" placeholder="enter your Gmail">
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="enter your query"></textarea>
+            <div class="popup" onclick="myFunction()">
+                <span class="popuptext" id="myPopup">Submitted successfully</span>
+              </div>
+            <button class="btn1">submit</button>
+            
+        </div>
+
+    </section> 
+    <footer>
+        <p class="text-footer">
+            copyright &copy; 2027 www.jovonovich.com - All right reserved
+        </p>
+    </footer> 
+    <script src="js/logout.js"></script>   
+</body>
+</html>
